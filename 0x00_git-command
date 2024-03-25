@@ -37,3 +37,23 @@ $ git commit
 $ git commit -m 'added filename.ext to the repo'
 (commits the staged files with the message "added filename.ext to the repo")
 
+$ touch .gitignore
+(.gitignore is a file that contain names of files(filename.ext) and directories(/directory_name) we wouldn't want to include in our remote repository)
+
+$ git branch branch_name
+(creates a new branch in the repo without moving us into the new branch)
+
+$ git checkout branch_name
+(moves us into the new branch)
+
+$ git merge branch_name
+(we can use the command while in the main branch to merge other branches to the main branch with a message too)
+
+$ git remote
+(lists the remote repository linked to the local repo)
+
+$ git clone https://github.com/ChrisNzoka/learn_git.git
+(adds a remote repository to our local machine)
+
+$ git pull
+(when run from a local repo, pulls the latest version of the remote repo to our local repository)

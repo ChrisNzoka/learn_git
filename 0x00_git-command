@@ -1,0 +1,39 @@
+$ mkdir repo-name
+(command creates a repository on the local machine)
+
+$ git init
+(initialises git on the new repository allowing us to use git commands)
+
+$ touch filename.ext
+(creates a new file within the repo "mkdir creates a new directory")
+
+$ git config --global user.name 'Chris Nzoka-Okoye'
+(Adds the user's username to the repo)
+
+$ git config --global user.email 'chrisnzokaokoye@gmail.com'
+(Adds the user's email to the repo)
+
+$ git add filename.ext
+(adds filename.ext to the staging area waiting to be commited to git)
+
+$ git rm --cached filename.ext
+(unstages or removes filename.ext from the staging area)
+
+$ git status
+(displays information on tracked (added files) and untracked (files yet to be added with 'git add') files)
+
+$ git add *.ext
+(adds all files with .ext extension)
+
+$ git add .
+(adds all files)
+
+$ git checkout --filename.ext
+(discards all changes made in filename.ext after it has been added using 'git add')
+
+$ git commit
+(opens up an editor for the commit message. to enter a message, press i. To exit the editor, type :wq and press enter)
+
+$ git commit -m 'added filename.ext to the repo'
+(commits the staged files with the message "added filename.ext to the repo")
+
